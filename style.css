@@ -2,8 +2,44 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 img{
     width: 480px;
+}
+
+.header,.footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    align-items: center;
+}
+
+.links{
+    color: #F9FAF8;
+}
+
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    gap : 5px;
 }
