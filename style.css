@@ -17,12 +17,13 @@ img{
 .header{
     display: flex;
     flex-direction: column;
+    padding: 0px 107px;
 }
 
-.hero{
+.header-logo{
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    padding: 16px 0px;
     align-items: center;
 }
 
@@ -42,4 +43,23 @@ ul{
     padding: 0%;
     display: flex;
     gap : 5px;
+}
+
+
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+    gap: 24px;
+}
+
+.hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext{
+    color: #E5E7EB;
+    font-size: 18px;
 }
