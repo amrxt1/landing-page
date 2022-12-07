@@ -8,6 +8,7 @@ body{
 
 .photo-main img{
     width: 480px;
+    border-radius: 17px;
 }
 
 
@@ -118,6 +119,7 @@ ul{
     justify-content: space-between;
     padding: 5%;
     gap: 24px;
+    border-radius: 17px;
 }
 .signup-button{
     display: flex;
